@@ -7,6 +7,7 @@ Welcome to the Resource Usage Widget! This is a powerful Python tool designed to
 - Real-time monitoring of CPU, memory, network, and disk usage.
 - Sleek and intuitive interface for easy visualization.
 - Double click to pin.
+- Drag across the screen.
 
 ## Screenshot
 
@@ -20,4 +21,4 @@ To use the Resource Usage Widget, simply clone this repository and run `python m
 
 ## Contributing
 
-We welcome contributions! If you'd like to contribute to this, feel free to do.
+We welcome contributions! If you'd like to contribute to this, feel free to do so.
