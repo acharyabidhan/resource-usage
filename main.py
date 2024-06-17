@@ -149,10 +149,15 @@ def update_ui():
 
 update_ui()
 
+def onKeyPress(e):
+    key = e.keysym
+    app.destroy() if key == "Q" or key == "q" else None
+
 def doNothing():pass
 app.wm_attributes("-transparentcolor", "pink")
 app.bind("<Button-1>", click)
 app.bind("<B1-Motion>", drag)
 app.protocol("WM_DELETE_WINDOW", doNothing)
-app.bind('<Double-Button-1>', pinWidget)
+app.bind("<Double-Button-1>", pinWidget)
+app.bind("<KeyPress>", onKeyPress)
 app.mainloop()
