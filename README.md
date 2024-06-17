@@ -9,6 +9,10 @@ Welcome to the Resource Usage Widget! This is a powerful Python tool designed to
 - Double click to pin.
 - Drag anywhere on the screen.
 
+## How to close
+
+Click on widget and press "Q" or "q" key on the keyboard.
+
 ## Screenshot
 
 Here's a screenshot of the widget in action:
