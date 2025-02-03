@@ -24,6 +24,7 @@ Here's a screenshot of the widget in action:
 To use this Widget, simply clone this repository and run the following commands.
 - `pip install -r requirements.txt`
 - `python main.py`
+
 If you want to run without windows console appearing, rename `main.py` to `main.pyw`.
 
 ## Contributing
